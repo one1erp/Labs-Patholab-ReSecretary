@@ -1,20 +1,15 @@
 ﻿using LSSERVICEPROVIDERLib;
+using Patholab_Common;
 using Patholab_DAL_V1;
 using Patholab_DAL_V1.Enums;
 using PathologResultEntry.Controls.Extra_req_Entities;
 using System;
-using System.Linq;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Data.Entity;
 using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using Telerik.WinControls;
 using System.IO;
-using Patholab_Common;
-using static System.Net.Mime.MediaTypeNames;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace PathologResultEntry.Controls
 {
@@ -57,7 +52,9 @@ namespace PathologResultEntry.Controls
             InitializeComponent();
             //sdgTree.ItemHeight = TreeItemHeight;
             canSendToAdvisor = new Dictionary<string, bool>();
-            Operators = dal.GetAll<OPERATOR>().Include(a => a.OPERATOR_USER).ToList();
+            //Operators = dal.GetAll<OPERATOR>().Include(a => a.OPERATOR_USER).ToList();
+            Operators = dal.GetAll<OPERATOR>().Include("OPERATOR_USER").ToList();
+
             exrqstatusList = dal.GetPhraseByName("Extra Request Status").PhraseEntriesDictonary;
 
             LoadAdvisor();
@@ -205,56 +202,8 @@ namespace PathologResultEntry.Controls
 
         #endregion
 
-        //private void btnAddSynamic_Click(object sender, EventArgs e)
-        //{
-        //    if (sdgTree.SelectedNode != null)
-        //    {
-        //        string nameOnly = sdgTree.SelectedNode.Text.Split('(')[0].Trim();
-
-        //        if (canSendToAdvisor.ContainsKey(nameOnly))
-        //        {
-        //            if (canSendToAdvisor[nameOnly])
-        //            {
-        //                if (!lbox_entities.Items.Contains(nameOnly))
-        //                    lbox_entities.Items.Add(nameOnly);
-        //            }
-        //            else
-        //            {
-        //                int dots = 0;
-        //                foreach (char c in nameOnly)
-        //                {
-        //                    if (c == '.')
-        //                        dots++;
-        //                }
-
-        //                string entityType;
-        //                if (dots == 1) entityType = "Sample";
-        //                else if (dots == 2) entityType = "Block";
-        //                else entityType = "Slide";
-
-
-        //                MessageBox.Show(string.Format("Can't send canceled {0} to advisor.", entityType));
-        //            }
-        //        }
-        //    }
-
-        //    lblCont4adv.Text = lbox_entities.Items.Count.ToString();
-        //}
-
-        //private void btnRemoveDynamic_Click(object sender, EventArgs e)
-        //{
-        //    if (lbox_entities.SelectedItem != null)
-        //    {
-        //        lbox_entities.Items.Remove(lbox_entities.SelectedItem);
-        //    }
-        //    lblCont4adv.Text = lbox_entities.Items.Count.ToString();
-        //}
-
-        //AE notice
-        
-        
-        
-        bool DEBUG = false;
+              
+       
         private void adviseRequest_Click(object sender, EventArgs e)
         {
             HideLabels();
@@ -264,11 +213,6 @@ namespace PathologResultEntry.Controls
                 MessageBox.Show(" אנא בחר יועץ");
                 return;
             }
-            //if (lbox_entities.Items.Count < 1)
-            //{
-            //    MessageBox.Show(" אנא בחר ישות");
-            //    return;
-            //}
 
 
             //const string successMsg = "The request was saved successfully.";

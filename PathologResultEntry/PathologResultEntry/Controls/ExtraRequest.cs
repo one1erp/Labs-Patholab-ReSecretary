@@ -1,21 +1,17 @@
-﻿using System;
+﻿using LSSERVICEPROVIDERLib;
+using Patholab_Common;
+using Patholab_DAL_V1;
+using Patholab_DAL_V1.Enums;
+using Patholab_XmlService;
+using PathologResultEntry.Controls.Extra_req_Entities;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data.Entity;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using Patholab_DAL_V1;
-using System.IO;
-using Telerik.WinControls;
 using Telerik.WinControls.UI;
-using Patholab_XmlService;
-using LSSERVICEPROVIDERLib;
-using System.Text.RegularExpressions;
-using PathologResultEntry.Controls.Extra_req_Entities;
-using Patholab_Common;
-using Patholab_DAL_V1.Enums;
-using System.Diagnostics;
 
 namespace PathologResultEntry.Controls
 {

@@ -8,7 +8,6 @@ using Patholab_DAL_V1.Enums;
 using Patholab_XmlService;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;

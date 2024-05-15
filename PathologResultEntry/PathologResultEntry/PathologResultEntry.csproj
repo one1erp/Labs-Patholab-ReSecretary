@@ -55,71 +55,59 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\DLLS\CrystalDecisions.Windows.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="CrystalReportsV1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\CrystalReportsV1.dll</HintPath>
+    <Reference Include="CrystalReportsV1">
+      <HintPath>..\..\..\DLLS\CrystalReportsV1.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
-      <HintPath>..\..\Patholab_DAL_V1\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\..\..\DLLS\EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="ExtraMaterialControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\ExtraMaterialControl.dll</HintPath>
+    <Reference Include="ExtraMaterialControl">
+      <HintPath>..\..\..\DLLS\ExtraMaterialControl.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.LSSERVICEPROVIDERLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Interop.LSSERVICEPROVIDERLib">
+      <HintPath>..\..\..\DLLS\Interop.LSSERVICEPROVIDERLib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>..\..\..\..\Program Files (x86)\Thermo\Nautilus\Interop.LSSERVICEPROVIDERLib.dll</HintPath>
     </Reference>
-    <Reference Include="NautToEytan, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\NautToEytan.dll</HintPath>
+    <Reference Include="NautToEytan">
+      <HintPath>..\..\..\DLLS\NautToEytan.dll</HintPath>
     </Reference>
-    <Reference Include="ONE1_richTextCtrl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\ONE1_richTextCtrl.dll</HintPath>
+    <Reference Include="ONE1_richTextCtrl">
+      <HintPath>..\..\..\DLLS\ONE1_richTextCtrl.dll</HintPath>
     </Reference>
-    <Reference Include="PacsDigital, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\PacsDigital.dll</HintPath>
+    <Reference Include="PacsDigital">
+      <HintPath>..\..\..\DLLS\PacsDigital.dll</HintPath>
     </Reference>
-    <Reference Include="Patholab_Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\Patholab_Common.dll</HintPath>
+    <Reference Include="Patholab_Common">
+      <HintPath>..\..\..\DLLS\Patholab_Common.dll</HintPath>
     </Reference>
-    <Reference Include="Patholab_XmlService, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\Patholab_XmlService.dll</HintPath>
+    <Reference Include="Patholab_DAL_V1">
+      <HintPath>..\..\..\DLLS\Patholab_DAL_V1.dll</HintPath>
     </Reference>
-    <Reference Include="PathologDiagnosis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\PathologDiagnosis.dll</HintPath>
+    <Reference Include="Patholab_XmlService">
+      <HintPath>..\..\..\DLLS\Patholab_XmlService.dll</HintPath>
     </Reference>
-    <Reference Include="PortalAssuta, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\PortalAssuta.dll</HintPath>
+    <Reference Include="PathologDiagnosis">
+      <HintPath>..\..\..\DLLS\PathologDiagnosis.dll</HintPath>
+    </Reference>
+    <Reference Include="PortalAssuta">
+      <HintPath>..\..\..\DLLS\PortalAssuta.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="PreviewLetter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\PreviewLetter.dll</HintPath>
+    <Reference Include="PreviewLetter">
+      <HintPath>..\..\..\DLLS\PreviewLetter.dll</HintPath>
     </Reference>
-    <Reference Include="Properties.Resources.Designer.cs">
-      <HintPath>..\..\ONE1_richTextCtrl\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll</HintPath>
+    <Reference Include="RequestRemarkNet">
+      <HintPath>..\..\..\DLLS\RequestRemarkNet.dll</HintPath>
     </Reference>
-    <Reference Include="RequestRemarkNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\RequestRemarkNet.dll</HintPath>
-    </Reference>
-    <Reference Include="SdgAttachments, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\SdgAttachments.dll</HintPath>
+    <Reference Include="SdgAttachments">
+      <HintPath>..\..\..\DLLS\SdgAttachments.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -131,7 +119,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Telerik.WinControls, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\BKP TELERIK\Telerik.WinControls.dll</HintPath>
+      <HintPath>..\..\..\DLLS\Telerik.WinControls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.WinControls.GridView, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -139,7 +127,7 @@
     </Reference>
     <Reference Include="Telerik.WinControls.UI, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DLLS\BKP TELERIK\Telerik.WinControls.UI.dll</HintPath>
+      <HintPath>..\..\..\DLLS\Telerik.WinControls.UI.dll</HintPath>
     </Reference>
     <Reference Include="TelerikCommon, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -429,12 +417,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\portal.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Patholab_DAL_V1\Patholab_DAL_V1\Patholab_DAL_V1.csproj">
-      <Project>{654b85ea-0add-42ad-aa0a-fae4cb001f97}</Project>
-      <Name>Patholab_DAL_V1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
