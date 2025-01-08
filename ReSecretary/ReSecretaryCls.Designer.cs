@@ -29,20 +29,18 @@
         private void InitializeComponent()
         {
             this.pnlSdgDetails = new System.Windows.Forms.Panel();
+            this.radButton1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lblPathoName = new System.Windows.Forms.Label();
             this.radLabel3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtBarcodeName = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
-            this.radButton1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabDiag = new System.Windows.Forms.TabPage();
             this.richDiagn = new ONE1_richTextCtrl.RichSpellCtrl();
-            this.richDiagn.formLoadingControlflag = false;
             this.tabImp = new System.Windows.Forms.TabPage();
             this.richImpDiag = new ONE1_richTextCtrl.RichSpellCtrl();
-            //this.richImpDiag.flag = false;
             this.pnlSdgDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -67,6 +65,17 @@
             this.pnlSdgDetails.Name = "pnlSdgDetails";
             this.pnlSdgDetails.Size = new System.Drawing.Size(1243, 86);
             this.pnlSdgDetails.TabIndex = 2;
+            // 
+            // radButton1
+            // 
+            this.radButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.radButton1.Font = new System.Drawing.Font("Segoe UI Symbol", 16.2F, System.Drawing.FontStyle.Bold);
+            this.radButton1.Location = new System.Drawing.Point(126, 19);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(81, 55);
+            this.radButton1.TabIndex = 6;
+            this.radButton1.Text = "יציאה";
+            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // label2
             // 
@@ -140,17 +149,6 @@
             this.btnSave.Text = "שמירה";
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // radButton1
-            // 
-            this.radButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.radButton1.Font = new System.Drawing.Font("Segoe UI Symbol", 16.2F, System.Drawing.FontStyle.Bold);
-            this.radButton1.Location = new System.Drawing.Point(126, 19);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(81, 55);
-            this.radButton1.TabIndex = 6;
-            this.radButton1.Text = "יציאה";
-            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabDiag);
@@ -183,6 +181,7 @@
             this.richDiagn.DocumentRtl = System.Windows.Forms.RightToLeft.Yes;
             this.richDiagn.Location = new System.Drawing.Point(3, 3);
             this.richDiagn.Name = "richDiagn";
+            this.richDiagn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.richDiagn.Size = new System.Drawing.Size(1229, 563);
             this.richDiagn.TabIndex = 5;
             // 
@@ -192,7 +191,7 @@
             this.tabImp.Location = new System.Drawing.Point(4, 41);
             this.tabImp.Name = "tabImp";
             this.tabImp.Padding = new System.Windows.Forms.Padding(3);
-            this.tabImp.Size = new System.Drawing.Size(1235, 567);
+            this.tabImp.Size = new System.Drawing.Size(1235, 569);
             this.tabImp.TabIndex = 0;
             this.tabImp.Text = "חומר לבדיקה";
             this.tabImp.UseVisualStyleBackColor = true;
@@ -203,6 +202,7 @@
             this.richImpDiag.DocumentRtl = System.Windows.Forms.RightToLeft.Yes;
             this.richImpDiag.Location = new System.Drawing.Point(3, 3);
             this.richImpDiag.Name = "richImpDiag";
+            this.richImpDiag.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.richImpDiag.Size = new System.Drawing.Size(1229, 563);
             this.richImpDiag.TabIndex = 5;
             // 

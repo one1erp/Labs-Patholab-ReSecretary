@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathologResultEntry", "Path
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patholab_DAL_V1", "..\..\Patholab_DAL_V1\Patholab_DAL_V1\Patholab_DAL_V1.csproj", "{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraMaterialControl", "..\..\ExtraMaterialControl\ExtraMaterialControl\ExtraMaterialControl.csproj", "{266013E8-36D8-458A-8620-358D3C49CDAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONE1_richTextCtrl", "..\..\ONE1_richTextCtrl\ONE1_richTextCtrl.csproj", "{328531B6-57F7-4853-AF95-46798933D063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,18 +41,18 @@ Global
 		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Release|x86.ActiveCfg = Release|Any CPU
 		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Release|x86.Build.0 = Release|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Debug|x86.Build.0 = Debug|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Release|x86.ActiveCfg = Release|Any CPU
-		{266013E8-36D8-458A-8620-358D3C49CDAE}.Release|x86.Build.0 = Release|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Debug|x86.Build.0 = Debug|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Release|x86.ActiveCfg = Release|Any CPU
+		{328531B6-57F7-4853-AF95-46798933D063}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
